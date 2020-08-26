@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 0 !important;
+    image: url('images/liquid.png');
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #000 !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+#banner {
+    background-color: #0E6DFF;
+    color: #fff;
+    padding-top: 5%;
+}
+
+.btn-dark {
+    width: 142px;
+    margin-top: 10px;
+}
+
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottom-img {
+    width: 100%;
+
+}
+
+#services {
+    padding: 80px 0;
+}
+
+.service-img {
+    width: 230px;
+    margin-top: 20px
+}
+
+.line1 {
+    border-top: 3px solid black;
+    width: 200px;
+}
+
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+
+}
+
+#about-us {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.client-img {
+    width: 100px;
+    margin-top: 20px
+}
+
+.contact-box {
+
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+.contact-box .form-control {
+    box-shadow: none !important;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    /* width: 500px; */
+    margin-top: 25px;
+    height: 41.3333px;
+    resize: vertical;
+    max-width: 500px;
+}
+
+#contact-us {
+    background-color: #0E6DFF;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.text-contact {
+    color: #fff;
+}
+
+.input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+}
+
+.textarea {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textarea;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+    padding: 2px;
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 15px;
+    margin: 16px 30px 0 0;
+    background-color: #374F61;
+    padding: 12px 20px;
+    cursor: pointer;
+    color: white;
+    width: 260px;
+    height: 50px;
+    float: unset;
+}
+
+.social-icons img {
+    transition: 0.5s;
+    margin: 0 20px;
+}
+
+#footer {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
